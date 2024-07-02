@@ -1,0 +1,129 @@
+/*Header*/
+.container{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .navbar{
+    background-color: rgba(0, 0, 0, 0.406);
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem, 3rem;
+    
+}
+.container .navbar .menu ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0%;
+}
+.container .navbar .menu ul li{
+    margin: 0 3rem;
+
+}
+.container .navbar .menu ul li button{
+    padding: 10px;
+    background-color: hsla(320, 14%, 91%, 0.894);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0.35em 0 0 hsl(327, 7%, 76%);
+}
+.container .navbar .menu ul li button {
+    font-family: 'Indie Flower';
+    font-size: 1em;
+    color: hsl(199, 33%, 15%);
+    text-decoration: none;
+    padding: cover;
+}
+
+.container .navbar .menu ul li button:active,
+
+.container .navbar .menu ul li button:focus-visible{
+    transform: translateY(0.35em);
+    box-shadow: none;
+}
+
+
+
+/*Main*/
+.button{
+    text-align: center;
+    margin-top: 16%;
+}
+.button button{
+
+    background-color: hsla(320, 14%, 91%, 0.894);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0.35em 0 0 hsl(327, 7%, 76%);
+}
+.button button:active,
+
+.button button:focus-visible{
+    transform: translateY(0.35em);
+    box-shadow: none;
+}
+.button button {
+    padding: 1.5rem;
+    font-family: 'Silkscreen';
+    font-size: 2em;
+    color: hsl(199, 33%, 15%);
+    text-decoration: none;
+    
+}
+
+/*LABELS*/
+.labels{
+    text-align: center;
+    margin-top: 10rem;
+    color:rgb(0, 0, 0)
+}
+.labels #label-num{
+    background-color: hsla(320, 14%, 91%, 0.894);
+    border:5px solid hsla(330, 7%, 76%, 0.746);
+    border-radius:10px;
+    padding: 1rem;
+    margin: 0 1rem;
+    font-family: 'Silkscreen';
+}
+#label1{
+
+    padding-left: 0.5rem;
+}#label2{
+    padding-left: 0.5rem;
+}
+#label3{
+    padding: 0 0.5rem;
+}
+/*LABELS*/
+
+/*LABELS*/
+.num{
+    margin: 0 1rem
+    
+}
+/*LABELS*/
+
+/*Footer*/
+
+.footerLinks ul{
+    border: 1px;
+    list-style-type: none;
+    padding: cover;
+}
+.footerLinks ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Indie Flower';
+}
+
+
+#footer-icons{
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+}

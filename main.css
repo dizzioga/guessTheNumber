@@ -1,0 +1,21 @@
+#body{
+    background-image: url(images/sakura-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    background-image: url(images/window.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
+#footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+
+    padding-bottom: 10px;
+}
